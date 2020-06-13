@@ -1,0 +1,117 @@
+
+#navbar-brand{
+	background-color:#ce0000;
+}
+#navbar-toggle{
+	background-color:#ce0000;
+}
+#navbarSupportedContent {
+	background-color:#ce0000;
+}
+.text-platzi {
+  color: #97c93e !important;
+}
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+.acerca-de{
+    width: 100%;
+    margin-top: 120px;
+}
+.acerca-de .info-container{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.acerca-de .info-container h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.acerca-de .info-container p{
+    text-align: center;
+    font-size: 17px;
+    color: var(--black);
+    line-height: 35px;
+    margin:10px 0px;
+}
+.acerca-de .info-container .about-gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.acerca-de .info-container .about-gallery img{
+    width: calc(33.333% - 10px);
+    height: 300px;
+    margin: 10px 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.acerca-de .info-container .about-more{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.acerca-de .info-container .about-more button{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    background: var(--red);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.acerca-de .info-container .about-more button:hover{background: var(--blue);}
+
+@media only screen and (max-width:773px){
+    .acerca-de .info-container .about-gallery{flex-direction: column;}
+    .acerca-de .info-container .about-gallery img{width: 100%;}
+}
+@media only screen and (max-width:590px){
+    .acerca-de .info-container h1{font-size: 30px;}
+    .acerca-de .info-container p{font-size: 15px;}
+}
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+#footer {
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+#footer a {
+	color:white;
+}
